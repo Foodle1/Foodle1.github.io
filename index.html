@@ -222,17 +222,140 @@
         </h2>
 
         <div class="projects__content">
-          <div class="projects__row">
+          <div class="projects-container">
+            <div class="mySlides fade">
+              <!--Starfighter-->
+              <div class="projects__row">
+                <div class="projects__row-img-cont">
+                  <img
+                          src="assets/starfighter/starfighter-logo.png"
+                          alt="Earths only hope sceenshot"
+                          class="projects__row-img"
+                          loading="lazy"
+                  />
+                </div>
+                <div class="projects__row-content">
+                  <h3 class="projects__row-content-title">Starfighter: Earth's Only Hope</h3>
+                  <p class="projects__row-content-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    facilis tempora, explicabo quae quod deserunt eius sapiente
+                    praesentium.
+                  </p>
+                  <a
+                          href="./project-1.html"
+                          class="btn btn--med btn--theme dynamicBgClr"
+                          target="_blank"
+                  >Case Study</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="mySlides fade">
+              <!--Organ Defender-->
+              <div class="projects__row">
+                <div class="projects__row-img-cont">
+                  <img
+                          src="./assets/organ-defender/organ-defender-logo.jpg"
+                          alt="Organ Defender Logo"
+                          class="projects__row-img"
+                          loading="lazy"
+                  />
+                </div>
+                <div class="projects__row-content">
+                  <h3 class="projects__row-content-title">Organ Defender</h3>
+                  <p class="projects__row-content-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    facilis tempora, explicabo quae quod deserunt eius sapiente
+                    praesentium.
+                  </p>
+                  <a
+                          href="./project-2.html"
+                          class="btn btn--med btn--theme dynamicBgClr"
+                          target="_blank"
+                  >Case Study</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="mySlides fade">
+              <!--Sam's Town-->
+              <div class="projects__row">
+                <div class="projects__row-img-cont">
+                  <img
+                          src="./assets/sams-town/sams-town-logo.png"
+                          alt="Software Screenshot"
+                          class="projects__row-img"
+                          loading="lazy"
+                  />
+                </div>
+                <div class="projects__row-content">
+                  <h3 class="projects__row-content-title">Sam's Town</h3>
+                  <p class="projects__row-content-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    facilis tempora, explicabo quae quod deserunt eius sapiente
+                    praesentium.
+                  </p>
+                  <a
+                          href="./project-3.html"
+                          class="btn btn--med btn--theme dynamicBgClr"
+                          target="_blank"
+                  >Case Study</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+          </script>
+
+          <!--<div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
+                src="assets/starfighter/starfighter-logo.png"
+                alt="Earths only hope sceenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <h3 class="projects__row-content-title">Starfighter: Earth's Only Hope</h3>
               <p class="projects__row-content-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                 facilis tempora, explicabo quae quod deserunt eius sapiente
@@ -240,7 +363,7 @@
               </p>
               <a
                 href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn&#45;&#45;med btn&#45;&#45;theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
               >
@@ -249,14 +372,14 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
+                src="./assets/organ-defender/organ-defender-logo.jpg"
+                alt="Organ Defender Logo"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <h3 class="projects__row-content-title">Organ Defender</h3>
               <p class="projects__row-content-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                 facilis tempora, explicabo quae quod deserunt eius sapiente
@@ -264,7 +387,7 @@
               </p>
               <a
                 href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn&#45;&#45;med btn&#45;&#45;theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
               >
@@ -273,14 +396,14 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/sams-town/sams-town-logo.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
+              <h3 class="projects__row-content-title">Sam's Town</h3>
               <p class="projects__row-content-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                 facilis tempora, explicabo quae quod deserunt eius sapiente
@@ -288,12 +411,12 @@
               </p>
               <a
                 href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn&#45;&#45;med btn&#45;&#45;theme dynamicBgClr"
                 target="_blank"
                 >Case Study</a
               >
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>

@@ -710,6 +710,14 @@ textarea {
   margin: auto;
 }
 
+/* Projects container */
+.projects-container {
+  /*max-width: 1000px;*/
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
