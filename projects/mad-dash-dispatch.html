@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 1</title>
+    <title>Case Study of Project 3</title>
     <meta name="description" content="Case study page of Project" />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,38 +22,38 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
+              src="../assets/png/john-doe.png"
               alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">Jack Waldron</span>
+          <span class="header__logo-sub">John Doe</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="../index.html" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="../index.html#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <a href="../index.html#projects" class="header__link">
                 Projects
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="../index.html#contact" class="header__link"> Contact </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
             <img
-              src="./assets/svg/ham-menu.svg"
+              src="../assets/svg/ham-menu.svg"
               alt="hamburger menu"
               class="header__main-ham-menu"
             />
             <img
-              src="./assets/svg/ham-menu-close.svg"
+              src="../assets/svg/ham-menu-close.svg"
               alt="hamburger menu close"
               class="header__main-ham-menu-close d-none"
             />
@@ -64,19 +64,19 @@
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <a href="../index.html"> Home </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
+              <a href="../index.html#about"> About </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
+              <a href="../index.html#projects"> Projects </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
+              <a href="../index.html#contact"> Contact </a>
             </li>
           </ul>
         </div>
@@ -84,90 +84,41 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Starfighter: Earth's Only Hope</h1>
+        <h1 class="heading-primary">Project 3</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            This is a VR action spaceflight game developed during IGB388 Design and Development of Immersive Environments
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            in numquam incidunt earum quaerat cum fuga, atque similique natus
+            nobis sit.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-<!--          <a href="#" class="btn btn&#45;&#45;bg" target="_blank">Live Link</a>-->
-          <iframe frameborder="0"
-                  height="167"
-                  src="https://itch.io/embed/2099661?bg_color=080808&amp;fg_color=dbdbdb&amp;border_color=2a2a2a" width="552">
-            <a href="https://foodle.itch.io/starfighter-earths-only-hope">Starfighter: Earth's Only Hope by Jack Waldron</a>
-          </iframe>
+          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
         </div>
       </div>
     </section>
     <section class="project-details">
       <div class="main-container">
         <div class="project-details__content">
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="assets/starfighter/starfighter-logo.png" style="width:100%; height:100%">
-            </div>
-            <div class="mySlides fade">
-              <img src="assets/starfighter/starfighter1.jpg" style="width:100%; height:100%">
-            </div>
-            <div class="mySlides fade">
-              <img src="assets/starfighter/starfighter2.jpg" style="width:100%; height:100%">
-            </div>
-            <div class="mySlides fade">
-              <img src="assets/starfighter/starfighter3.jpg" style="width:100%; height:100%">
-            </div><div class="mySlides fade">
-              <img src="assets/starfighter/starfighter4.jpg" style="width:100%; height:100%">
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="../assets/jpeg/project-mockup-example.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
           </div>
-          <br>
-
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-          </div>
-
-          <script>
-            let slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-              let i;
-              let slides = document.getElementsByClassName("mySlides");
-              let dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";
-              dots[slideIndex-1].className += " active";
-            }
-          </script>
-
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                During development of Starfighter: Earth's Only Hope I Acted as lead
-                programmer, working with another programmer and a game designer.
-                This game started as my own pitch, then evolving into the game it is
-                after incorporating elements from the rest of the groups pitches.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                alias tenetur minus quaerat aliquid, aut provident blanditiis,
+                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
+                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Neque alias tenetur minus quaerat
+                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
+                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
+                ullam rem?
               </p>
               <p class="project-details__desc-para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
@@ -179,16 +130,34 @@
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">C#</div>
-                <div class="skills__skill">Unity</div>
-                <div class="skills__skill">OpenXR</div>
-                <div class="skills__skill">Oculus SDK</div>
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">React</div>
+                <div class="skills__skill">SASS</div>
                 <div class="skills__skill">GIT</div>
-                <div class="skills__skill">GitHub</div>
-                <div class="skills__skill">SCRUM</div>
-                <div class="skills__skill">Desktop</div>
+                <div class="skills__skill">Shopify</div>
+                <div class="skills__skill">Wordpress</div>
+                <div class="skills__skill">Google ADS</div>
+                <div class="skills__skill">Facebook Ads</div>
                 <div class="skills__skill">Android</div>
+                <div class="skills__skill">IOS</div>
               </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="#"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
             </div>
           </div>
         </div>
@@ -205,42 +174,42 @@
               <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
+                  src="../assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
               <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
+                  src="../assets/png/github-ico.png"
                   alt="icon"
                 />
               </a>
               <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
+                  src="../assets/png/twitter-ico.png"
                   alt="icon"
                 />
               </a>
               <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
+                  src="../assets/png/yt-ico.png"
                   alt="icon"
                 />
               </a>
               <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
+                  src="../assets/png/insta-ico.png"
                   alt="icon"
                 />
               </a>
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Jack Waldron</h4>
+            <h4 class="heading heading-sm text-lt">John Doe</h4>
             <p class="main-footer__short-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
               tempora explicabo quae quod deserunt
@@ -256,6 +225,6 @@
         </div>
       </div>
     </footer>
-    <script src="./index.js"></script>
+    <script src="../index.js"></script>
   </body>
 </html>
