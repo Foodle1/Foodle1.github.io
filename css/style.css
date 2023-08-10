@@ -163,6 +163,20 @@ textarea {
     border: 2px solid #080808;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
+  /*.btn--next {
+    display: grid;
+    top:50%;
+    margin-top: 0;
+    margin-right:0;
+    margin-left: 75%;
+  }
+  .btn--prev {
+    display: grid;
+    top: 50%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 75%;
+  }*/
 
 .sec-pad {
   padding: 12rem 0; }
@@ -737,6 +751,7 @@ textarea {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: rgba(0,0,0,0.1);
 }
 
 /* Position the "next button" to the right */
