@@ -413,7 +413,7 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-                  href="projects/starfighter.html"
+                  href="starfighter.html"
                   class="btn btn--med btn--theme dynamicBgClr"
                   target="_blank"
           >Case Study</a
@@ -436,7 +436,7 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-                  href="projects/organ-defender.html"
+                  href="organ-defender.html"
                   class="btn btn--med btn--theme dynamicBgClr"
                   target="_blank"
           >Case Study</a
@@ -459,7 +459,7 @@ Currently, I have already added a separate for each project ( considering there 
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
-                  href="projects/sams-town.html"
+                  href="sams-town.html"
                   class="btn btn--med btn--theme dynamicBgClr"
                   target="_blank"
           >Case Study</a
