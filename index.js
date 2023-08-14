@@ -43,7 +43,6 @@ const time = 6000;
 let timer = setTimeout(nextSlideTimer, time)
 
 function nextSlideTimer() {
-  //document.getElementById("demo").innerHTML = "2 seconds";
   plusSlides(1);
 }
 
