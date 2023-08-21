@@ -232,72 +232,72 @@ Go to `/index.html` and fill your information, there are 6 sections:
 ```html
 <!-- **** Hero Section of Homepage **** -->
 <section class="home-hero">
-  <div class="home-hero__content">
-    <h1 class="heading-primary">Hey, My name is John Doe</h1>
-    <div class="home-hero__info">
-      <p class="text-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente solutions for complex
-        problems
-      </p>
+    <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is John Doe</h1>
+        <div class="home-hero__info">
+            <p class="text-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+                tempora explicabo quae quod deserunt eius sapiente solutions for complex
+                problems
+            </p>
+        </div>
+        <div class="home-hero__cta">
+            <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
     </div>
-    <div class="home-hero__cta">
-      <a href="./#projects" class="btn btn--bg">Projects</a>
+    <div class="home-hero__socials">
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img
+                        src="assets/icons/linkedin-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                />
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img
+                        src="assets/icons/github-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                />
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img
+                        src="assets/icons/twitter-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                />
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+                <img
+                        src="assets/icons/yt-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                />
+            </a>
+        </div>
+        <div class="home-hero__social">
+            <a
+                    href="#"
+                    class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+            >
+                <img
+                        src="assets/icons/insta-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                />
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="home-hero__socials">
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/linkedin-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
+    <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
     </div>
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/github-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/twitter-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/yt-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-    <div class="home-hero__social">
-      <a
-        href="#"
-        class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-      >
-        <img
-          src="./assets/png/insta-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-  </div>
-  <div class="home-hero__mouse-scroll-cont">
-    <div class="mouse"></div>
-  </div>
 </section>
 <!-- /END Hero Section -->
 ```
@@ -547,66 +547,66 @@ If you like to know how to submit forms so you can receive the form details in y
 ```html
 <!-- **** Footer Section **** -->
 <footer class="main-footer">
-  <div class="main-container">
-    <div class="main-footer__upper">
-      <div class="main-footer__row main-footer__row-1">
-        <h2 class="heading heading-sm main-footer__heading-sm">
-          <span>Social</span>
-        </h2>
-        <div class="main-footer__social-cont">
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/github-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon main-footer__icon--mr-none"
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-            />
-          </a>
+    <div class="main-container">
+        <div class="main-footer__upper">
+            <div class="main-footer__row main-footer__row-1">
+                <h2 class="heading heading-sm main-footer__heading-sm">
+                    <span>Social</span>
+                </h2>
+                <div class="main-footer__social-cont">
+                    <a target="_blank" rel="noreferrer" href="#">
+                        <img
+                                class="main-footer__icon"
+                                src="assets/icons/linkedin-ico.png"
+                                alt="icon"
+                        />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="#">
+                        <img
+                                class="main-footer__icon"
+                                src="assets/icons/github-ico.png"
+                                alt="icon"
+                        />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="#">
+                        <img
+                                class="main-footer__icon"
+                                src="assets/icons/twitter-ico.png"
+                                alt="icon"
+                        />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="#">
+                        <img
+                                class="main-footer__icon"
+                                src="assets/icons/yt-ico.png"
+                                alt="icon"
+                        />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="#">
+                        <img
+                                class="main-footer__icon main-footer__icon--mr-none"
+                                src="assets/icons/insta-ico.png"
+                                alt="icon"
+                        />
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer__row main-footer__row-2">
+                <h4 class="heading heading-sm text-lt">John Doe</h4>
+                <p class="main-footer__short-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+                    tempora explicabo quae quod deserunt
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="main-footer__row main-footer__row-2">
-        <h4 class="heading heading-sm text-lt">John Doe</h4>
-        <p class="main-footer__short-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-          tempora explicabo quae quod deserunt
-        </p>
-      </div>
-    </div>
 
-    <div class="main-footer__lower">
-      &copy; Copyright 2021. Made by
-      <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-        >Ram Maheshwari</a
-      >
+        <div class="main-footer__lower">
+            &copy; Copyright 2021. Made by
+            <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+            >
+        </div>
     </div>
-  </div>
 </footer>
 <!-- END Footer Section -->
 ```
