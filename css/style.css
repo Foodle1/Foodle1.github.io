@@ -857,3 +857,10 @@ textarea {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.itch {
+  display: none;
+  @media only screen and (max-width: 551px) {
+    .itch {
+      display: none; } }
+}
