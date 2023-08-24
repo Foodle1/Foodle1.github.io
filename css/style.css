@@ -858,6 +858,6 @@ textarea {
   display: block;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   iframe {
     width: fit-content} }
